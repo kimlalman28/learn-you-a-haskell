@@ -114,3 +114,5 @@ integral_type_class1 = fromIntegral :: (Num b, Integral a) => a -> b
 integral_type_class2 = fromIntegral (length [1,2,3,4]) + 3.2
 -- 7.2 -note: an errors occurs if not using from integral because we tried adding an Int to a floating point number
 
+
+
